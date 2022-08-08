@@ -1,0 +1,25 @@
+.formulario{
+    div{
+        button{
+            border: 1px solid $color-primario;
+            background-color:transparent ;
+            &:hover{
+                background-color: $color-primario;
+                color: #ffffff;
+                transition: 1s;
+            }
+        }
+    }
+}
+
+.contacto{
+    margin-top: 3%;
+    h1{
+        font-family: $font-style-title;
+        color: #ffffff;
+        letter-spacing: 0.07em;
+        text-shadow: -7px 3px 0 $color-primario;
+        margin-bottom: 3%;
+    }
+}
+

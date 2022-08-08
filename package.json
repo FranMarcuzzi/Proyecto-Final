@@ -1,0 +1,12 @@
+{
+  "name": "boostrap-completo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch Codigo/scss/style.scss:Codigo/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

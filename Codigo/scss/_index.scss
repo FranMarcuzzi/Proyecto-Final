@@ -1,0 +1,56 @@
+.titulo-index{
+    h1{
+        font-size: 15rem;
+    }
+}
+
+.fondo{
+    .silder1{
+        background-image: url(../Imagenes/silder2.jpg);
+        h3{
+            font-family: 'Fjalla One', sans-serif;
+            margin: auto;
+            color: #ffffff;
+            margin-top: 20%;
+            span{
+                color: $color-primario;
+            }
+        }
+        button{
+            margin-top: 1%;
+            &:hover{
+                background-color: $color-primario;
+                transform: translate(10px) ;
+                box-shadow: 0 5px 5px 0 rgba(0, 0, 0,.4);
+                transition: 1s;
+            }
+        }
+    }
+    .silder2{
+        background-image: url(../Imagenes/silder1.jpg);
+        h3{
+            font-family: 'Fjalla One', sans-serif;
+            margin: auto;
+            color: $color-primario;
+            margin-top: 20%;
+            span{
+                color: #000000;
+            }
+        }
+        button{
+            &:hover{
+                transform: translate(10px) ;
+                box-shadow: 0 5px 5px 0 rgba(0, 0, 0,.4);
+                transition: 1s;
+                background-color: $color-primario;
+            }
+        }
+    }
+
+    div{
+        height: 87vh;
+        background-repeat: none;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}

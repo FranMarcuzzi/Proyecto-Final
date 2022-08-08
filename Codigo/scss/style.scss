@@ -1,0 +1,44 @@
+$color-primario: #d80032;
+$font-style-title: 'Fjalla One', sans-serif;
+
+@import "index";
+@import "footer";
+@import "productos";
+@import "faq";
+@import "contacto";
+@import "encontranos";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    .logo{
+        color:#ffffff;
+        font-family: 'Francois One', sans-serif;
+        font-size: x-large;
+        span{
+            color: $color-primario;
+        }
+        animation: tada 3;
+    }
+}
+
+.navegacion{
+    ul{
+        li{
+            &:hover{
+                transform: scale(1.1);
+                background-color: $color-primario ;
+                transition: .5s;
+            }
+            &:hover a{
+                color: #ffffff;
+                font-weight:600;
+            }
+        }
+    }
+}
+
