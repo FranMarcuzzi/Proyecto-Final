@@ -15,11 +15,7 @@
 .contacto{
     margin-top: 3%;
     h1{
-        font-family: $font-style-title;
-        color: #ffffff;
-        letter-spacing: 0.07em;
-        text-shadow: -7px 3px 0 $color-primario;
-        margin-bottom: 3%;
+        @extend .titulo;
     }
 }
 

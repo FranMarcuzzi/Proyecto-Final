@@ -3,16 +3,20 @@
 
 .fondo .silder1 {
   background-image: url(../Imagenes/silder2.jpg); }
-  .fondo .silder1 h3 {
+  .fondo .silder1 .titulo3 {
     font-family: 'Fjalla One', sans-serif;
     margin: auto;
-    color: #ffffff;
-    margin-top: 20%; }
-    .fondo .silder1 h3 span {
+    margin-top: 20%;
+    color: #ffffff; }
+    .fondo .silder1 .titulo3 span {
       color: #d80032; }
-  .fondo .silder1 button {
-    margin-top: 1%; }
-    .fondo .silder1 button:hover {
+  .fondo .silder1 .button {
+    margin-top: 1%;
+    border: 1px solid #d80032;
+    color: #d80032;
+    background-color: transparent; }
+    .fondo .silder1 .button:hover {
+      color: white;
       background-color: #d80032;
       transform: translate(10px);
       box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
@@ -22,15 +26,15 @@
   .fondo .silder2 h3 {
     font-family: 'Fjalla One', sans-serif;
     margin: auto;
-    color: #d80032;
-    margin-top: 20%; }
+    margin-top: 20%;
+    color: #d80032; }
     .fondo .silder2 h3 span {
       color: #000000; }
   .fondo .silder2 button:hover {
+    background-color: #d80032;
     transform: translate(10px);
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
-    transition: 1s;
-    background-color: #d80032; }
+    transition: 1s; }
 .fondo div {
   height: 87vh;
   background-repeat: none;
@@ -78,7 +82,7 @@
           box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.4);
           filter: none; }
 
-.productos h1 {
+.titulo, .faq h1, .contacto h1, .encontranos h1 {
   font-family: "Fjalla One", sans-serif;
   color: #ffffff;
   letter-spacing: 0.07em;
@@ -110,13 +114,6 @@
   .accordion div h2 button:focus {
     outline: none; }
 
-.faq h1 {
-  font-family: "Fjalla One", sans-serif;
-  color: #ffffff;
-  letter-spacing: 0.07em;
-  text-shadow: -7px 3px 0 #d80032;
-  margin-bottom: 3%; }
-
 .formulario div button {
   border: 1px solid #d80032;
   background-color: transparent; }
@@ -127,19 +124,6 @@
 
 .contacto {
   margin-top: 3%; }
-  .contacto h1 {
-    font-family: "Fjalla One", sans-serif;
-    color: #ffffff;
-    letter-spacing: 0.07em;
-    text-shadow: -7px 3px 0 #d80032;
-    margin-bottom: 3%; }
-
-.encontranos h1 {
-  font-family: "Fjalla One", sans-serif;
-  color: #ffffff;
-  letter-spacing: 0.07em;
-  text-shadow: -7px 3px 0 #d80032;
-  margin-bottom: 3%; }
 
 * {
   margin: 0;
