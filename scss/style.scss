@@ -1,5 +1,3 @@
-$color-primario: #d80032;
-$font-style-title: 'Fjalla One', sans-serif;
 
 @import "index";
 @import "footer";
@@ -7,14 +5,15 @@ $font-style-title: 'Fjalla One', sans-serif;
 @import "faq";
 @import "contacto";
 @import "encontranos";
+@import "variables";
 
-
+//NORMALIZE//
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+//LOGO//
 div{
     .logo{
         color:#ffffff;
@@ -26,7 +25,7 @@ div{
         animation: tada 3;
     }
 }
-
+//ANIMACIONES//
 .navegacion{
     ul{
         li{

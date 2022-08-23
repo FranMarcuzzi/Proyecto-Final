@@ -1,13 +1,5 @@
-@mixin titulo {
-    font-family: $font-style-title;
-        color: #ffffff;
-        letter-spacing: 0.07em;
-        text-shadow: -7px 3px 0 $color-primario;
-        margin-bottom: 3%;
-}
-@mixin name($tamaño,) {
-    
-}
+@import "mixin";
+
 .titulo{
     @include titulo;
         
@@ -17,6 +9,7 @@
     h5{
         font-family: $font-style-title;
     }
+    //Animacion//
     .btn{
         &:hover{
             border:1px  solid #F01E0C;

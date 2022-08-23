@@ -1,11 +1,5 @@
-$estilo-button:(
-    crece: translate(10px),
-    sombra: 0 5px 5px 0 rgba(0, 0, 0,.4),
-    mover: 1s,
-    fondo: $color-primario,
+@import "variables";
 
-
-);
 .titulo-index{
     h1{
         font-size: 15rem;
