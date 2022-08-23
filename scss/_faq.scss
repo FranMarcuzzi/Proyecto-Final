@@ -1,0 +1,23 @@
+.accordion{
+    div{
+        background-color: #1f2124;
+        color: white;
+        h2{
+            button{
+                &:focus{
+                    color:white;
+                    background-color: transparent; 
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+    }
+
+}
+.faq{
+    h1{
+        @extend .titulo;
+    }
+}

@@ -1,0 +1,68 @@
+$estilo-button:(
+    crece: translate(10px),
+    sombra: 0 5px 5px 0 rgba(0, 0, 0,.4),
+    mover: 1s,
+    fondo: $color-primario,
+
+
+);
+.titulo-index{
+    h1{
+        font-size: 15rem;
+    }
+}
+
+.fondo{
+    .silder1{
+        background-image: url(../Imagenes/silder2.jpg);
+        .titulo3{
+            font-family: 'Fjalla One', sans-serif;
+            margin: auto;
+            margin-top: 20%;
+            color: #ffffff;
+            span{
+                color: $color-primario;
+            }
+        }
+        .button{
+            margin-top: 1%;
+            border: 1px solid $color-primario;
+            color: $color-primario;
+            background-color: transparent;
+            &:hover{
+                color: white;
+                background-color:map-get($estilo-button , fondo );
+                transform: map-get($estilo-button,crece);
+                box-shadow:map-get($estilo-button, sombra);
+                transition: map-get($estilo-button , mover );
+            }
+        }
+    }
+    .silder2{
+        background-image: url(../Imagenes/silder1.jpg);
+        h3{
+            font-family: 'Fjalla One', sans-serif;
+            margin: auto;
+            margin-top: 20%;
+            color: $color-primario;
+            span{
+                color: #000000;
+            }
+        }
+        button{
+            &:hover{
+                background-color:map-get($estilo-button , fondo );
+                transform: map-get($estilo-button,crece);
+                box-shadow:map-get($estilo-button, sombra);
+                transition: map-get($estilo-button , mover );
+            }
+        }
+    }
+
+    div{
+        height: 87vh;
+        background-repeat: none;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
